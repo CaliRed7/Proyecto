@@ -1,9 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Proyecto_Final_Lab11_CGeIHC.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
-  ProyectoFinalmain.cpp
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\ProyectoFinalmain.cpp(318,23): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\ProyectoFinalmain.cpp(647,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\ProyectoFinalmain.cpp(649,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-E:\Documentos\ProyectosLabCGIHC\Proyecto\Proyecto\ProyectoFinalmain.cpp(1273,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-  Proyecto.vcxproj -> E:\Documentos\ProyectosLabCGIHC\Proyecto\Debug\Proyecto.exe
