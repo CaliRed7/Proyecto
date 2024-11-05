@@ -26,7 +26,7 @@
 #include"Model.h"
 #include "Skybox.h"
 
-//para iluminaci髇
+//para iluminaci贸n
 #include "CommonValues.h"
 #include "DirectionalLight.h"
 #include "PointLight.h"
@@ -34,7 +34,7 @@
 #include "Material.h"
 const float toRadians = 3.14159265f / 180.0f;
 
-//variables para animaci髇
+//variables para animaci贸n
 float movCoche;
 float movOffset;
 float sube;
@@ -218,6 +218,7 @@ Texture tzoraojo;
 //textura dado 
 Texture dado10Texture;
 Texture tableroTexture;
+Texture tableronocheTexture;
 Texture D8;
 Texture D4;
 Texture Lampara;
@@ -321,6 +322,48 @@ Model Casilla_37;
 Model Casilla_38;
 Model Casilla_39;
 Model Casilla_40;
+Model CasillaNoche_1;
+Model CasillaNoche_2;
+Model CasillaNoche_3;
+Model CasillaNoche_4;
+Model CasillaNoche_5;
+Model CasillaNoche_6;
+Model CasillaNoche_7;
+Model CasillaNoche_8;
+Model CasillaNoche_9;
+Model CasillaNoche_10;
+Model CasillaNoche_11;
+Model CasillaNoche_12;
+Model CasillaNoche_13;
+Model CasillaNoche_14;
+Model CasillaNoche_15;
+Model CasillaNoche_16;
+Model CasillaNoche_17;
+Model CasillaNoche_18;
+Model CasillaNoche_19;
+Model CasillaNoche_20;
+Model CasillaNoche_21;
+Model CasillaNoche_22;
+Model CasillaNoche_23;
+Model CasillaNoche_24;
+Model CasillaNoche_25;
+Model CasillaNoche_26;
+Model CasillaNoche_27;
+Model CasillaNoche_28;
+Model CasillaNoche_29;
+Model CasillaNoche_30;
+Model CasillaNoche_31;
+Model CasillaNoche_32;
+Model CasillaNoche_33;
+Model CasillaNoche_34;
+Model CasillaNoche_35;
+Model CasillaNoche_36;
+Model CasillaNoche_37;
+Model CasillaNoche_38;
+Model CasillaNoche_39;
+Model CasillaNoche_40;
+
+
 Model Dado8;
 Model Dado4;
 Model lampara;
@@ -354,7 +397,7 @@ int random_number(int lower, int upper) {
 }
 
 
-//funci髇 de calculo de normales por promedio de v閞tices 
+//funci贸n de calculo de normales por promedio de v茅rtices 
 void calcAverageNormals(unsigned int* indices, unsigned int indiceCount, GLfloat* vertices, unsigned int verticeCount,
 	unsigned int vLength, unsigned int normalOffset)
 {
@@ -457,7 +500,7 @@ void CreateObjects()
 }
 void CrearDecaedro() {
 	unsigned int decaedro_indices[] = {
-		// Caras del decaedro (10 tri醤gulos)
+		// Caras del decaedro (10 tri谩ngulos)
 		0, 1, 2,    // Cara 1
 		3, 4, 5,    // Cara 2
 		6, 7, 8,    // Cara 3
@@ -518,10 +561,10 @@ void CrearDecaedro() {
 	meshList.push_back(dad010c);
 }
 //=========================================================================================
-//Funci髇 para crear el dado de 4 caras
+//Funci贸n para crear el dado de 4 caras
 void CrearPiramideTriangular() {
 	unsigned int piramide_indices[] = {
-		// Cada cara tiene tres 韓dices, sin reutilizar v閞tices
+		// Cada cara tiene tres 铆ndices, sin reutilizar v茅rtices
 		0, 1, 2,    // Cara de la base
 		3, 4, 5,    // Cara lateral 1
 		6, 7, 8,    // Cara lateral 2
@@ -529,25 +572,25 @@ void CrearPiramideTriangular() {
 	};
 
 	GLfloat piramide_vertices[] = {
-		// Base de la pir醡ide (cada v閞tice ajustado)
-		-0.5f, -0.25f, -0.333f,   0.7f, 0.5f,   0.0f, -1.0f, 0.0f,  // V閞tice 0 - Base
-		 0.5f, -0.25f, -0.333f,   0.32f, 0.5f,  0.0f, -1.0f, 0.0f,  // V閞tice 1 - Base
-		 0.0f, -0.25f,  0.667f,   0.51f, 0.27f, 0.0f, -1.0f, 0.0f,  // V閞tice 2 - Base
+		// Base de la pir谩mide (cada v茅rtice ajustado)
+		-0.5f, -0.25f, -0.333f,   0.7f, 0.5f,   0.0f, -1.0f, 0.0f,  // V茅rtice 0 - Base
+		 0.5f, -0.25f, -0.333f,   0.32f, 0.5f,  0.0f, -1.0f, 0.0f,  // V茅rtice 1 - Base
+		 0.0f, -0.25f,  0.667f,   0.51f, 0.27f, 0.0f, -1.0f, 0.0f,  // V茅rtice 2 - Base
 
 		 // Cara lateral 1
-		 -0.5f, -0.25f, -0.333f,   0.71f, 0.52f, -0.5f, 0.5f, 0.5f,  // V閞tice 3
-		  0.5f, -0.25f, -0.333f,   0.3f, 0.52f, -0.5f, 0.5f, 0.5f,  // V閞tice 4
-		  0.0f,  0.75f,  0.167f,   0.51f, 0.76f, -0.5f, 0.5f, 0.5f,  // V閞tice 5
+		 -0.5f, -0.25f, -0.333f,   0.71f, 0.52f, -0.5f, 0.5f, 0.5f,  // V茅rtice 3
+		  0.5f, -0.25f, -0.333f,   0.3f, 0.52f, -0.5f, 0.5f, 0.5f,  // V茅rtice 4
+		  0.0f,  0.75f,  0.167f,   0.51f, 0.76f, -0.5f, 0.5f, 0.5f,  // V茅rtice 5
 
 		  // Cara lateral 2
-		   0.5f, -0.25f, -0.333f,   0.73f, 0.5f,  0.5f, 0.5f, 0.5f,  // V閞tice 6
-		   0.0f, -0.25f,  0.667f,   0.53f, 0.26f, 0.5f, 0.5f, 0.5f,  // V閞tice 7
-		   0.0f,  0.75f,  0.167f,   0.92f, 0.26f, 0.5f, 0.5f, 0.5f,  // V閞tice 8
+		   0.5f, -0.25f, -0.333f,   0.73f, 0.5f,  0.5f, 0.5f, 0.5f,  // V茅rtice 6
+		   0.0f, -0.25f,  0.667f,   0.53f, 0.26f, 0.5f, 0.5f, 0.5f,  // V茅rtice 7
+		   0.0f,  0.75f,  0.167f,   0.92f, 0.26f, 0.5f, 0.5f, 0.5f,  // V茅rtice 8
 
 		   // Cara lateral 3
-			0.0f, -0.25f,  0.667f,   0.3f, 0.5f, -0.5f, 0.5f, -0.5f,  // V閞tice 9
-		   -0.5f, -0.25f, -0.333f,   0.49f, 0.26f, -0.5f, 0.5f, -0.5f,  // V閞tice 10
-			0.0f,  0.75f,  0.167f,   0.1f, 0.27f, -0.5f, 0.5f, -0.5f   // V閞tice 11
+			0.0f, -0.25f,  0.667f,   0.3f, 0.5f, -0.5f, 0.5f, -0.5f,  // V茅rtice 9
+		   -0.5f, -0.25f, -0.333f,   0.49f, 0.26f, -0.5f, 0.5f, -0.5f,  // V茅rtice 10
+			0.0f,  0.75f,  0.167f,   0.1f, 0.27f, -0.5f, 0.5f, -0.5f   // V茅rtice 11
 	};
 
 
@@ -564,7 +607,7 @@ void CreateShaders()
 	shaderList.push_back(*shader1);
 }
 //=========================================================================================
-//Funci髇 para visualizar las caras de los dados
+//Funci贸n para visualizar las caras de los dados
 struct Giro {
 	float x, y, z;
 };
@@ -599,7 +642,7 @@ int main()
 	CreateShaders();
 	CrearDecaedro();
 	//=========================================================================================
-	//Se manda a llamar la funci髇 para crear el dado de 4 caras
+	//Se manda a llamar la funci贸n para crear el dado de 4 caras
 	CrearPiramideTriangular();
 	//=========================================================================================
 	camera = Camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -60.0f, 0.0f, 0.3f, 0.5f);
@@ -793,6 +836,8 @@ int main()
 	dado10Texture.LoadTextureA();
 	tableroTexture = Texture("Textures/dia.png");
 	tableroTexture.LoadTextureA();
+	tableronocheTexture = Texture("Textures/noche.png");
+	tableronocheTexture.LoadTextureA();
 	D4 = Texture("Textures/Dado4-opt.tga");
 	D4.LoadTextureA();
 	D8 = Texture("Textures/Dado8-opt.tga");
@@ -897,7 +942,7 @@ int main()
 	casilla40zora.LoadModel("Models/zora.obj");
 	//==================================================
 
-	/////Tablero///////////////
+	/////Tablero D铆a///////////////
 	Casilla_1 = Model();
 	Casilla_1.LoadModel("Models/casilla1.obj");
 	Casilla_2 = Model();
@@ -978,6 +1023,88 @@ int main()
 	Casilla_39.LoadModel("Models/casilla39.obj");
 	Casilla_40 = Model();
 	Casilla_40.LoadModel("Models/casilla40.obj");
+
+	/////Tablero Noche///////////////
+	CasillaNoche_1 = Model();
+	CasillaNoche_1.LoadModel("Models/tableronoche/casilla1.obj");
+	CasillaNoche_2 = Model();
+	CasillaNoche_2.LoadModel("Models/tableronoche/casilla2.obj");
+	CasillaNoche_3 = Model();
+	CasillaNoche_3.LoadModel("Models/tableronoche/casilla3.obj");
+	CasillaNoche_4 = Model();
+	CasillaNoche_4.LoadModel("Models/tableronoche/casilla4.obj");
+	CasillaNoche_5 = Model();
+	CasillaNoche_5.LoadModel("Models/tableronoche/casilla5.obj");
+	CasillaNoche_6 = Model();
+	CasillaNoche_6.LoadModel("Models/tableronoche/casilla6.obj");
+	CasillaNoche_7 = Model();
+	CasillaNoche_7.LoadModel("Models/tableronoche/casilla7.obj");
+	CasillaNoche_8 = Model();
+	CasillaNoche_8.LoadModel("Models/tableronoche/casilla8.obj");
+	CasillaNoche_9 = Model();
+	CasillaNoche_9.LoadModel("Models/tableronoche/casilla9.obj");
+	CasillaNoche_10 = Model();
+	CasillaNoche_10.LoadModel("Models/tableronoche/casilla10.obj");
+	CasillaNoche_11 = Model();
+	CasillaNoche_11.LoadModel("Models/tableronoche/casilla11.obj");
+	CasillaNoche_12 = Model();
+	CasillaNoche_12.LoadModel("Models/tableronoche/casilla12.obj");
+	CasillaNoche_13 = Model();
+	CasillaNoche_13.LoadModel("Models/tableronoche/casilla13.obj");
+	CasillaNoche_14 = Model();
+	CasillaNoche_14.LoadModel("Models/tableronoche/casilla14.obj");
+	CasillaNoche_15 = Model();
+	CasillaNoche_15.LoadModel("Models/tableronoche/casilla15.obj");
+	CasillaNoche_16 = Model();
+	CasillaNoche_16.LoadModel("Models/tableronoche/casilla16.obj");
+	CasillaNoche_17 = Model();
+	CasillaNoche_17.LoadModel("Models/tableronoche/casilla17.obj");
+	CasillaNoche_18 = Model();
+	CasillaNoche_18.LoadModel("Models/tableronoche/casilla18.obj");
+	CasillaNoche_19 = Model();
+	CasillaNoche_19.LoadModel("Models/tableronoche/casilla19.obj");
+	CasillaNoche_20 = Model();
+	CasillaNoche_20.LoadModel("Models/tableronoche/casilla20.obj");
+	CasillaNoche_21 = Model();
+	CasillaNoche_21.LoadModel("Models/tableronoche/casilla21.obj");
+	CasillaNoche_22 = Model();
+	CasillaNoche_22.LoadModel("Models/tableronoche/casilla22.obj");
+	CasillaNoche_23 = Model();
+	CasillaNoche_23.LoadModel("Models/tableronoche/casilla23.obj");
+	CasillaNoche_24 = Model();
+	CasillaNoche_24.LoadModel("Models/tableronoche/casilla24.obj");
+	CasillaNoche_25 = Model();
+	CasillaNoche_25.LoadModel("Models/tableronoche/casilla25.obj");
+	CasillaNoche_26 = Model();
+	CasillaNoche_26.LoadModel("Models/tableronoche/casilla26.obj");
+	CasillaNoche_27 = Model();
+	CasillaNoche_27.LoadModel("Models/tableronoche/casilla27.obj");
+	CasillaNoche_28 = Model();
+	CasillaNoche_28.LoadModel("Models/tableronoche/casilla28.obj");
+	CasillaNoche_29 = Model();
+	CasillaNoche_29.LoadModel("Models/tableronoche/casilla29.obj");
+	CasillaNoche_30 = Model();
+	CasillaNoche_30.LoadModel("Models/tableronoche/casilla30.obj");
+	CasillaNoche_31 = Model();
+	CasillaNoche_31.LoadModel("Models/tableronoche/casilla31.obj");
+	CasillaNoche_32 = Model();
+	CasillaNoche_32.LoadModel("Models/tableronoche/casilla32.obj");
+	CasillaNoche_33 = Model();
+	CasillaNoche_33.LoadModel("Models/tableronoche/casilla33.obj");
+	CasillaNoche_34 = Model();
+	CasillaNoche_34.LoadModel("Models/tableronoche/casilla34.obj");
+	CasillaNoche_35 = Model();
+	CasillaNoche_35.LoadModel("Models/tableronoche/casilla35.obj");
+	CasillaNoche_36 = Model();
+	CasillaNoche_36.LoadModel("Models/tableronoche/casilla36.obj");
+	CasillaNoche_37 = Model();
+	CasillaNoche_37.LoadModel("Models/tableronoche/casilla37.obj");
+	CasillaNoche_38 = Model();
+	CasillaNoche_38.LoadModel("Models/tableronoche/casilla38.obj");
+	CasillaNoche_39 = Model();
+	CasillaNoche_39.LoadModel("Models/tableronoche/casilla39.obj");
+	CasillaNoche_40 = Model();
+	CasillaNoche_40.LoadModel("Models/tableronoche/casilla40.obj");
 	/////////////////////////////////////////////
 	//////////////PErsonaje/////////////////
 	// Model BrazoDH;
@@ -1029,13 +1156,13 @@ int main()
 	Material_opaco = Material(0.3f, 4);
 
 
-	//luz direccional, s髄o 1 y siempre debe de existir
+	//luz direccional, s贸lo 1 y siempre debe de existir
 	mainLight = DirectionalLight(1.0f, 1.0f, 1.0f,
 		0.3f, 0.3f,
 		0.0f, 0.0f, -1.0f);
 	//contador de luces puntuales
 	unsigned int pointLightCount = 0;
-	//Declaraci髇 de primer luz puntual
+	//Declaraci贸n de primer luz puntual
 	pointLights[0] = PointLight(1.0f, 0.0f, 0.0f,
 		0.0f, 1.0f,
 		-6.0f, 1.5f, 1.5f,
@@ -1148,7 +1275,7 @@ int main()
 		uniformEyePosition = shaderList[0].GetEyePositionLocation();
 		uniformColor = shaderList[0].getColorLocation();
 
-		//informaci髇 en el shader de intensidad especular y brillo
+		//informaci贸n en el shader de intensidad especular y brillo
 		uniformSpecularIntensity = shaderList[0].GetSpecularIntensityLocation();
 		uniformShininess = shaderList[0].GetShininessLocation();
 
@@ -1156,13 +1283,13 @@ int main()
 		glUniformMatrix4fv(uniformView, 1, GL_FALSE, glm::value_ptr(camera.calculateViewMatrix()));
 		glUniform3f(uniformEyePosition, camera.getCameraPosition().x, camera.getCameraPosition().y, camera.getCameraPosition().z);
 
-		// luz ligada a la c醡ara de tipo flash
-		//sirve para que en tiempo de ejecuci髇 (dentro del while) se cambien propiedades de la luz
+		// luz ligada a la c谩mara de tipo flash
+		//sirve para que en tiempo de ejecuci贸n (dentro del while) se cambien propiedades de la luz
 		glm::vec3 lowerLight = camera.getCameraPosition();
 		lowerLight.y -= 0.3f;
 		spotLights[0].SetFlash(lowerLight, camera.getCameraDirection());
 
-		//informaci髇 al shader de fuentes de iluminaci髇
+		//informaci贸n al shader de fuentes de iluminaci贸n
 		shaderList[0].SetDirectionalLight(&mainLight);
 		shaderList[0].SetPointLights(pointLights, pointLightCount);
 		shaderList[0].SetSpotLights(spotLights, spotLightCount);
@@ -1293,7 +1420,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla3kirby.RenderModel();
 
-		//Casilla 4 - Flor del drag髇
+		//Casilla 4 - Flor del drag贸n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(-4.9f, 1.39f, -20.2f));
 		model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
@@ -1333,7 +1460,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla8elite.RenderModel();
 
-		//Casilla 9 - B鷋o
+		//Casilla 9 - B煤ho
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(-4.9f, -0.39f, -44.95f));
 		model = glm::scale(model, glm::vec3(4.5f, 4.5f, 4.5f));
@@ -1365,7 +1492,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla12pulpo.RenderModel();
 
-		//Casilla 13 - Boc髇
+		//Casilla 13 - Boc贸n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(15.25f, -0.39f, -64.3f));
 		model = glm::scale(model, glm::vec3(4.5f, 4.5f, 4.5f));
@@ -1453,7 +1580,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla23flores.RenderModel();
 
-		//Casilla 24 - Pi馻
+		//Casilla 24 - Pi帽a
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(64.3f, 1.39f, -40.0f));
 		model = glm::scale(model, glm::vec3(9.0f, 9.0f, 9.0f));
@@ -1493,7 +1620,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla28chimuelo.RenderModel();
 
-		//Casilla 29 - 羠bol
+		//Casilla 29 - 脕rbol
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(64.3f, -0.39f, -15.25f));
 		model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
@@ -1560,14 +1687,14 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla37moblin.RenderModel();
 
-		//Casilla 38 - Pat醤
+		//Casilla 38 - Pat谩n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(20.2f, -0.39f, 5.9f));
 		model = glm::scale(model, glm::vec3(3.5f, 3.5f, 3.5f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla38patan.RenderModel();
 
-		//Casilla 39 - Instalaci髇 04
+		//Casilla 39 - Instalaci贸n 04
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(15.25f, 6.39f, 5.9f));
 		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
@@ -1582,7 +1709,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		casilla40zora.RenderModel();
 
-		//=========================TABLERO=========================
+		//=========================TABLERO D脥A=========================
 		//Casilla 1 - Salida - Esquina 1
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -3.9f));
@@ -1607,7 +1734,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_3.RenderModel();
 
-		//Casilla 4 - Flor del drag髇
+		//Casilla 4 - Flor del drag贸n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -20.2f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1647,7 +1774,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_8.RenderModel();
 
-		//Casilla 9 - B鷋o
+		//Casilla 9 - B煤ho
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -44.95f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1679,7 +1806,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_12.RenderModel();
 
-		//Casilla 13 - Boc髇
+		//Casilla 13 - Boc贸n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(15.25f, -0.39f, -56.3f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1767,7 +1894,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_23.RenderModel();
 
-		//Casilla 24 - Pi馻
+		//Casilla 24 - Pi帽a
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -40.0f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1783,7 +1910,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_25.RenderModel();
 
-		//Casilla 26 - 羠boles
+		//Casilla 26 - 脕rboles
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -30.1f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1807,7 +1934,7 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_28.RenderModel();
 
-		//Casilla 29 - 羠boles
+		//Casilla 29 - 脕rboles
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -15.25f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1872,14 +1999,14 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_37.RenderModel();
 
-		//Casilla 38 - Pat醤
+		//Casilla 38 - Pat谩n
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(20.2f, -0.39f, -3.9f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_38.RenderModel();
 
-		//Casilla 39 - Instalaci髇 04
+		//Casilla 39 - Instalaci贸n 04
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(15.25f, -0.39f, -3.9f));
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
@@ -1892,6 +2019,317 @@ int main()
 		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Casilla_40.RenderModel();
+
+		//=========================TABLERO NOCHE=========================
+		//CasillaNoche 1 - Salida - Esquina 1
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_1.RenderModel();
+
+		//CasillaNoche 2 - 343 Guilty Spark
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -10.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_2.RenderModel();
+
+		//CasillaNoche 3 - Anti-Kirby
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -15.25f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_3.RenderModel();
+
+		//CasillaNoche 4 - Flor del drag贸n
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -20.2f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_4.RenderModel();
+
+		//CasillaNoche 5 - Soldado ODST
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -25.15f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_5.RenderModel();
+
+		//CasillaNoche 6 - Conejo
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -30.1f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_6.RenderModel();
+
+		//CasillaNoche 7 - Astrid
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -35.05f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_7.RenderModel();
+
+		//CasillaNoche 8 - Soldado Elite
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -40.0f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_8.RenderModel();
+
+		//CasillaNoche 9 - B煤ho
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -44.95f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_9.RenderModel();
+
+		//CasillaNoche 10 - Estoico
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -49.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_10.RenderModel();
+
+		//CasillaNoche 11 - Spartan-IV - Esquina 2
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(3.9f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_11.RenderModel();
+
+		//CasillaNoche 12 - Octorok
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(10.3f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_12.RenderModel();
+
+		//CasillaNoche 13 - Boc贸n
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(15.25f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_13.RenderModel();
+
+		//CasillaNoche 14 - Caveman
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(20.2f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_14.RenderModel();
+
+		//CasillaNoche 15 - Cuco
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(25.15f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_15.RenderModel();
+
+		//CasillaNoche 16 - Brutacio
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(30.1f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_16.RenderModel();
+
+		//CasillaNoche 17 - Espora Flood
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(35.05f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_17.RenderModel();
+
+		//CasillaNoche 18 - Mutt
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(40.0f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_18.RenderModel();
+
+		//CasillaNoche 19 - Brutilda
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(44.95f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_19.RenderModel();
+
+		//CasillaNoche 20 - Rata
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(49.9f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_20.RenderModel();
+
+		//CasillaNoche 20 - Tienda de Herramientas - Esquina 3
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -56.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_21.RenderModel();
+
+		//CasillaNoche 22 - Patapez
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -49.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_22.RenderModel();
+
+		//CasillaNoche 23 - Flores Rojas
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -44.95f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_23.RenderModel();
+
+		//CasillaNoche 24 - Pi帽a
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -40.0f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_24.RenderModel();
+
+		//CasillaNoche 25 - Casa
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -35.05f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_25.RenderModel();
+
+		//CasillaNoche 26 - 脕rboles
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -30.1f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_26.RenderModel();
+
+		//CasillaNoche 27 - Panal
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -25.15f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_27.RenderModel();
+
+		//CasillaNoche 28 - Chimuelo
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -20.2f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_28.RenderModel();
+
+		//CasillaNoche 29 - 脕rboles
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -15.25f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_29.RenderModel();
+
+		//CasillaNoche 30 - Cofre
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -10.3f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_30.RenderModel();
+
+		//CasillaNoche 31 - Rompe Huesos - Esquina 4
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(56.3f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_31.RenderModel();
+
+		//CasillaNoche 32 - Tormenta
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(49.9f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_32.RenderModel();
+
+		//CasillaNoche 33 - Pillar de Autumn
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(44.95f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_33.RenderModel();
+
+		//CasillaNoche 34 - Marin
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(40.0f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_34.RenderModel();
+
+		//CasillaNoche 35 - Nido huevo
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(35.05f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_35.RenderModel();
+
+		//CasillaNoche 36 - Supercarguero
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(30.1f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_36.RenderModel();
+
+		//CasillaNoche 37 - Moblin
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(25.15f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_37.RenderModel();
+
+		//CasillaNoche 38 - Pat谩n
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(20.2f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_38.RenderModel();
+
+		//CasillaNoche 39 - Instalaci贸n 04
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(15.25f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_39.RenderModel();
+
+		//CasillaNoche 40 - Zora
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(10.3f, -0.39f, -3.9f));
+		model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		CasillaNoche_40.RenderModel();
 
 
 		/////////////////////////Dados///////////////////////////////////////////
@@ -2062,21 +2500,21 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		dirigible.RenderModel();
 
-		//H閘ice Dirigible 1
+		//H茅lice Dirigible 1
 		model = modelaux;
 		model = glm::translate(model, glm::vec3(0.57f, 3.1f, 0.85f));
 		model = glm::rotate(model, rotHelicesD * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Hdirigible.RenderModel();
 
-		//H閘ice Dirigible 2
+		//H茅lice Dirigible 2
 		model = modelaux;
 		model = glm::translate(model, glm::vec3(-0.9f, -0.54f, 0.85f));
 		model = glm::rotate(model, rotHelicesD * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Hdirigible.RenderModel();
 
-		//H閘ice Dirigible 3
+		//H茅lice Dirigible 3
 		model = modelaux;
 		model = glm::translate(model, glm::vec3(2.1f, -0.46f, 0.85f));
 		model = glm::rotate(model, rotHelicesD * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
