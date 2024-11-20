@@ -1,0 +1,173 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (Release\) contiene archivos compartidos de otro proyecto (P09-317320509.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Camera.cpp
+  DirectionalLight.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\DirectionalLight.cpp(18,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\DirectionalLight.cpp(19,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\DirectionalLight.cpp(21,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\DirectionalLight.cpp(22,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Light.cpp
+  Material.cpp
+  Mesh_tn.cpp
+  Model.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(16,10): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'const std::string'
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(16,80): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+      C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(16,80):
+      los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(51,7): warning C4804: '<': uso no seguro del tipo 'bool' en la operación
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(51,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(138,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Model.cpp(147,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+  PointLight.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(28,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(29,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(30,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(32,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(33,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(34,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\PointLight.cpp(35,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  ProyectoFinalmainVF2.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "ProyectoFinalmainVF2.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "ProyectoFinalmainVF2.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(773,23): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(1809,14): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(1892,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(1894,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(1932,32): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2185,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2187,40): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2209,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2211,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2233,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2235,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2256,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2258,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2278,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2280,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2301,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2303,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2324,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2326,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2347,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2349,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2370,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2372,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2393,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2395,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2416,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2418,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2439,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2441,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2462,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2464,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2485,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2487,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2508,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2510,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2531,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2533,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2554,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2556,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2577,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2579,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2600,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2602,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2623,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2625,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2645,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2647,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2667,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2669,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2689,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2691,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2711,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2713,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2733,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2735,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2755,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2757,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2777,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2779,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2799,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2801,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2821,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2823,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2843,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2845,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2865,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2867,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2887,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2889,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2909,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2911,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2931,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2933,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2953,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2955,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2975,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2977,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2997,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(2999,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3019,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3021,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3041,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3043,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3063,37): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(3065,39): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9767,39): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9771,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9772,12): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9773,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9774,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9789,25): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9790,20): warning C4244: '+=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9804,21): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9805,21): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9806,21): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9807,23): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9808,23): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9809,23): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(9816,44): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\ProyectoFinalmainVF2.cpp(10164,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Shader_light.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(215,75): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(215,26): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(214,91): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(214,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(228,98): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(228,62): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(228,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(227,70): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(227,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(226,88): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Shader_light.cpp(226,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+  Skybox.cpp
+  Sphere.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  SpotLight.cpp
+  Texture.cpp
+  Window.cpp
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(378,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(379,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(383,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(384,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(386,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(387,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(97): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  1680 of 1693 functions (99.2%) were compiled, the rest were copied from previous compilation.
+    762 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Proyecto_Final_Lab11_CGeIHC.vcxproj -> C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Release\Proyecto_Final_Lab11_CGeIHC.exe
