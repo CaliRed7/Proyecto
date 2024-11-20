@@ -43,10 +43,10 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 }
 int Window::Initialise()
 {
-	//InicializaciÃ³n de GLFW
+	//Inicialización de GLFW
 	if (!glfwInit())
 	{
-		printf("FallÃ³ inicializar GLFW");
+		printf("Falló inicializar GLFW");
 		glfwTerminate();
 		return 1;
 	}
@@ -58,7 +58,7 @@ int Window::Initialise()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	//CREAR VENTANA
-	mainWindow = glfwCreateWindow(width, height, " Proyecto Final Lab 11 CGeIHC", NULL, NULL);
+	mainWindow = glfwCreateWindow(width, height, " Proyecto Final Teoria 4 CGeIHC", NULL, NULL);
 
 	if (!mainWindow)
 	{
@@ -66,7 +66,7 @@ int Window::Initialise()
 		glfwTerminate();
 		return 1;
 	}
-	//Obtener tamaÃ±o de Buffer
+	//Obtener tamaño de Buffer
 	glfwGetFramebufferSize(mainWindow, &bufferWidth, &bufferHeight);
 
 	//asignar el contexto
@@ -81,7 +81,7 @@ int Window::Initialise()
 
 	if (glewInit() != GLEW_OK)
 	{
-		printf("FallÃ³ inicializaciÃ³n de GLEW");
+		printf("Falló inicialización de GLEW");
 		glfwDestroyWindow(mainWindow);
 		glfwTerminate();
 		return 1;
@@ -92,7 +92,7 @@ int Window::Initialise()
 
 	//Asignar Viewport
 	glViewport(0, 0, bufferWidth, bufferHeight);
-	//Callback para detectar que se estÃ¡ usando la ventana
+	//Callback para detectar que se está usando la ventana
 	glfwSetWindowUserPointer(mainWindow, this);
 }
 
@@ -293,6 +293,7 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 	{
 		theWindow->TURN_ON_OFF3 = true;
 		theWindow->TURN_ON_OFF4 = false;
+		theWindow->tirodados= true;
 
 	}
 
@@ -300,6 +301,7 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 	{
 		theWindow->TURN_ON_OFF3 = false;
 		theWindow->TURN_ON_OFF4 = true;
+		theWindow->tirodados = false;
 
 	}
 

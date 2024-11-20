@@ -36,9 +36,11 @@ public:
 	GLboolean getTURN_ON_OFF2() { return TURN_ON_OFF2; }
 	GLboolean getTURN_ON_OFF3() { return TURN_ON_OFF3; }
 	GLboolean getTURN_ON_OFF4() { return TURN_ON_OFF4; }
+	GLboolean getDados() { return tirodados; }
 	GLboolean getarrancar() { return arrancar; }
 	GLfloat getmuevex() { return muevex; }
 	GLfloat getangulocola() { return angulocola; }
+
 
 	~Window();
 private:
@@ -46,6 +48,7 @@ private:
 	GLboolean TURN_ON_OFF2;
 	GLboolean TURN_ON_OFF3;
 	GLboolean TURN_ON_OFF4;
+	GLboolean tirodados;
 	GLboolean arrancar;
 	GLFWwindow* mainWindow;
 	GLint width, height;
