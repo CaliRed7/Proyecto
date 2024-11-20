@@ -1,11 +1,15 @@
 ﻿  Window.cpp
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(376,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(377,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(381,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(382,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(384,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(385,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(97,1): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
-  Proyecto_Final_Lab11_CGeIHC.vcxproj -> C:\Users\angel\Desktop\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Debug\Proyecto_Final_Lab11_CGeIHC.exe
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(378,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(379,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(383,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(384,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(386,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(387,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Proyecto_Final_Lab11_CGeIHC\Window.cpp(97,1): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  Proyecto_Final_Lab11_CGeIHC.vcxproj -> C:\Users\angel\OneDrive\Escritorio\ProyectoFinal\ProyectoFinal\Proyecto_Final_Lab11_CGeIHC\Debug\Proyecto_Final_Lab11_CGeIHC.exe
